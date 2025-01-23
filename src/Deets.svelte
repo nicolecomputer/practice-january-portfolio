@@ -30,16 +30,16 @@
   }
 
   header {
-    font-family: monospace;
-    background-color: #e4dfdf;
+    background-color: #dce1e4;
     padding: 12px 8px;
     border-bottom: 2px solid black;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .row {
     padding: 12px 8px;
     border-bottom: 2px solid black;
+    font-size: 14px;
   }
 
   .list {
@@ -49,16 +49,16 @@
   .list ol,
   .list li {
     display: inline;
-    font-family: monospace;
   }
 
   .list h3 {
     margin-bottom: 8px;
+    font-size: 14px;
   }
 
   .list ol {
     list-style-type: none;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   li + li::before {
@@ -66,7 +66,8 @@
   }
 
   .link:hover {
-    background-color: #f0f0f0;
+    background-color: #daebff;
     text-decoration: underline;
+    cursor: pointer;
   }
 </style>

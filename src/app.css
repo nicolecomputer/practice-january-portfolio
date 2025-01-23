@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "Fira";
+  src: url("/fonts/FiraCode.woff2") format("woff2");
+}
+
 :root {
   color-scheme: light;
-  font-family: monospace;
+  font-family: Fira;
 }
 
 body,
