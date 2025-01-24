@@ -116,11 +116,11 @@
       title: "January Portfolio",
       url: "https://practice-portfolio.lion.computer",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
+        "You are here! You have just used this app to flip through the things I've made in January 2025",
       tools: ["Svelte", "Typescript", "Vite"],
-      features: ["dark mode", "desktop", "mobile"],
+      features: ["desktop"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github: "https://github.com/nicolecomputer/practice-january-portfolio",
       },
     },
   ];
