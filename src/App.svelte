@@ -7,65 +7,65 @@
       url: "https://practice-todo-app.lion.computer",
       description:
         "Call it humble beginnings. My fingers are still cold and the challenge is to build a TODO app. Todo app done but this is worth another swing.",
-      tools: ["-"],
-      features: ["-"],
+      tools: ["React", "Typescript"],
+      features: ["desktop"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github: "https://github.com/nicolecomputer/practice-todo-app",
       },
     },
     {
       title: "Tweet Layout",
       url: "https://practice-tweet-layout.lion.computer",
-      description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
-      tools: ["-"],
-      features: ["-"],
+      description: "Challenge: build a tweet component.",
+      tools: ["React", "Typescript", "Vite"],
+      features: ["desktop", "mobile"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github: "https://github.com/nicolecomputer/practice-tweet-layout",
       },
     },
     {
       title: "Temperature Converter",
       url: "https://practice-temperature-converter.lion.computer",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
-      tools: ["-"],
-      features: ["-"],
+        "It's cold out and not all my friends use the same temperature system- build a temperature converter. This was meant to be a quick function-only question but it needed to have a frontend",
+      tools: ["React", "Typescript", "Vite", "Pico.css"],
+      features: ["desktop"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github:
+          "https://github.com/nicolecomputer/practice-temperature-converter",
       },
     },
     {
       title: "Classlist Toy",
       url: "https://practice-classlist.lion.computer",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
-      tools: ["-"],
-      features: ["-"],
+        "An API exploration that grew into a little toy. The rectangle changes colors, rotates, scales, and skews!",
+      tools: ["Pure JS", "Static HTML/CSS/JS"],
+      features: ["desktop"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github: "https://github.com/nicolecomputer/classlist-toy",
       },
     },
     {
       title: "Star Rating",
       url: "https://practice-star-rating.lion.computer",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
-      tools: ["-"],
-      features: ["-"],
+        "What's the rating on this book, film, or sweatshirt? Star rating components are everywhere. This component lets a user rate but also lets them add more stars if their rating system isn't a 1-5 kind-of-deal.",
+      tools: ["React", "Typescript", "Vite"],
+      features: ["desktop", "mobile"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github: "https://github.com/nicolecomputer/practice-star-rating",
       },
     },
     {
       title: "Progress Bar",
       url: "https://practice-progress-bar.lion.computer",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
-      tools: ["-"],
-      features: ["-"],
+        "A progress bar! I did the design for this one and started to get really into buttons. There are some small niceties like the percentage hiding when the bar gets small.",
+      tools: ["React", "Typescript", "Vite"],
+      features: ["desktop", "mobile", "dark mode"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github: "https://github.com/nicolecomputer/practice-progress-bar",
       },
     },
     {
@@ -85,6 +85,17 @@
       description:
         "The challenge? Display a digital clock without ever typing the numbers. No fonts allowed! The solution? Carefully placed div's and some styling. Viola! This project made careful use of React's useEffect hook to update the current time state.",
       tools: ["React", "Typescript", "Vite"],
+      features: ["desktop", "mobile"],
+      links: {
+        github: "https://github.com/nicolecomputer/practice-digital-clock",
+      },
+    },
+    {
+      title: "Notes Page Redesign",
+      url: "https://notes.nicole.computer",
+      description:
+        "The challenge? Display a digital clock without ever typing the numbers. No fonts allowed! The solution? Carefully placed div's and some styling. Viola! This project made careful use of React's useEffect hook to update the current time state.",
+      tools: ["Quartz", "HTML", "CSS"],
       features: ["desktop", "mobile"],
       links: {
         github: "https://github.com/nicolecomputer/practice-digital-clock",

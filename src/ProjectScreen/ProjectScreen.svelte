@@ -6,7 +6,7 @@
 
 <div id="project">
   <div id="left">
-    <iframe id="gallery-slot" title="Project Preview"></iframe>
+    <iframe src={url} id="gallery-slot" title="Project Preview"></iframe>
   </div>
   <div id="right">
     <h1>{title}</h1>
