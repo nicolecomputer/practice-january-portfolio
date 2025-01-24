@@ -1,3 +1,7 @@
+<script lang="ts">
+  const { tools, features, githubSrcUrl, websiteUrl } = $props();
+</script>
+
 <div class="floating-window">
   <header>
     <h3>The-Deets.txt</h3>
@@ -5,21 +9,25 @@
   <div class="row list">
     <h3>Tools</h3>
     <ol>
-      <li>Svelte</li>
-      <li>Typescript</li>
-      <li>Vite</li>
+      {#each tools as tool}
+        <li>{tool}</li>
+      {/each}
     </ol>
   </div>
   <div class="row list">
     <h3>Features</h3>
     <ol>
-      <li>Dark Mode</li>
-      <li>Mobile</li>
-      <li>Desktop</li>
+      {#each features as feature}
+        <li>{feature}</li>
+      {/each}
     </ol>
   </div>
-  <div class="row link">Github</div>
-  <div class="row link">Website</div>
+  <div class="row link">
+    <a href={githubSrcUrl} target="_blank">Github</a>
+  </div>
+  <div class="row link">
+    <a href={websiteUrl} target="_blank">Website</a>
+  </div>
 </div>
 
 <style>
@@ -62,7 +70,16 @@
   }
 
   li + li::before {
-    content: "& ";
+    content: ", ";
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    color: black;
   }
 
   .link:hover {
