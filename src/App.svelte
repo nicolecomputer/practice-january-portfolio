@@ -72,11 +72,11 @@
       title: "AC Friend Level Up",
       url: "https://practice-animal-crossing.lion.computer",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
-      tools: ["-"],
-      features: ["-"],
+        "We got a big snow and I got into playing Animal Crossing Pocket Camp. I loved all the little moments of delight and wanted to recreate one of the screens from the game.",
+      tools: ["Svelte", "Typescript", "Vite"],
+      features: ["mobile"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-quiz",
+        github: "https://github.com/nicolecomputer/practice-ac-friend-level",
       },
     },
     {
@@ -94,18 +94,18 @@
       title: "Notes Page Redesign",
       url: "https://notes.nicole.computer",
       description:
-        "The challenge? Display a digital clock without ever typing the numbers. No fonts allowed! The solution? Carefully placed div's and some styling. Viola! This project made careful use of React's useEffect hook to update the current time state.",
+        "A redesign of my notes website with a theme that feels like me. I did the design for this!",
       tools: ["Quartz", "HTML", "CSS"],
       features: ["desktop", "mobile"],
       links: {
-        github: "https://github.com/nicolecomputer/practice-digital-clock",
+        github: "https://github.com/nicolecomputer/quartz",
       },
     },
     {
       title: "Quiz",
       url: "https://practice-quiz.lion.computer",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Himenaeos facilisi ultrices curabitur fringilla pretium iaculis ad. Maximus ligula faucibus ex habitant eros. Cubilia id nec tempor mattis tempus est non. Ullamcorper mollis eleifend; taciti netus class platea. Lorem dapibus mauris nostra phasellus platea ultricies ac. Potenti purus vehicula mus ante libero aliquet. Quam velit vitae feugiat viverra congue magnis conubia. Malesuada aenean nec dictumst; aliquam maximus phasellus.",
+        "A bigger project to build out a quiz app. Has a start of task card, quiz, and end of task/stats card.",
       tools: ["Svelte", "Typescript", "Vite"],
       features: ["dark mode", "desktop", "mobile"],
       links: {
